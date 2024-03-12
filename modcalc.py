@@ -3,9 +3,9 @@ def modcalc(numerator: int, denominator: int) -> int:
     return -d * f + n
 
 
-n = int(input("Type numerator: "))
-d = int(input("Type divisor: "))
-r = modcalc(n, d)
+n = int(input("Type numerator: ")) 
+d = int(input("Type divisor: ")) // denominator
+r = modcalc(n, d) // result
 print(r)
 
 # r = -df + n
